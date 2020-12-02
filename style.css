@@ -92,6 +92,11 @@ label {
     color: black; 
 }
 @media only screen and (max-width: 1200px) {
+    
+  #svg8 {
+        width: 200px;
+        height: 100px;
+    }
     div {
         grid-template-rows: 55px 0px;
         grid-template-columns: 400px;
@@ -107,8 +112,5 @@ label {
     ::placeholder {
         color: goldenrod;
     }
-    #svg8 {
-        width: 200px;
-        height: 100px;
-    }
+
 }
