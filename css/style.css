@@ -107,4 +107,8 @@ label {
     ::placeholder {
         color: goldenrod;
     }
+    #svg8 {
+        width: 200px;
+        height: 100px;
+    }
 }
