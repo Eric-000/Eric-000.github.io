@@ -20,6 +20,10 @@ function enableDarkMode() {
 
 function disableDarkMode() {
   document.body.classList.remove("dark-mode")
+  bform.classList.remove("dark-mode")
+  bookingform.classList.remove("dark-mode")
+  pform.classList.remove("dark-mode")
+  uform.classList.remove("dark-mode")
   localStorage.setItem('theme', 'light');
 }
 
