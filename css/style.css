@@ -1,11 +1,16 @@
 body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-  }
-  
-  .dark-mode {
-    background-color: black;    
-    color: white;
-  }
+  height: 650px;
+  background-color: white;
+  color: black;
+}
+ 
+
+.dark-mode {
+    background-color: black;
+    color: white!important;
+}
+
+#navbar {
+  width: 36px;
+  height: 26px;
+}
